@@ -1,0 +1,49 @@
+
+
+
+body {
+  background-color:grey;
+
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  font-family:  georgia;
+}
+
+
+
+.header 
+
+ {
+  -webkit-animation: animation 2000ms linear infinite both;
+  animation: animation 2000ms linear infinite both;
+}
+
+
+
+
+
+
+.header{
+  text-align: center;
+}
+.header h1{
+  font-size: 50px;
+  color: #ff0000;
+}
+.header p{
+  color: #ddd;
+}
+.header p a{
+  color: #fff;
+}
+canvas {
+  box-sizing: border-box;
+  background-image: url(img/s.jpg);
+  background-size: cover;
+  border: 1px solid #111;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 2000px;
+  
+}
